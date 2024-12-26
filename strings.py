@@ -7,5 +7,8 @@
 # # print(name[-1])
 # print(name.count("a"))
 
-import timestamp
+import time
+timestamp = time.strftime('%H:%M:%S')
+print(timestamp)
+
 
